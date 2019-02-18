@@ -1,0 +1,9 @@
+
+  {
+    "/api/*": {
+      "target": "https://ispiritech.sharepoint.com/TestSite/_api/Web/Lists/getbytitle('employee')/Items",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {"^/api" : ""}
+    }
+  }
